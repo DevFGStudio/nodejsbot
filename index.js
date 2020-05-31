@@ -46,7 +46,7 @@ client.on('message', (message) => {
       .addField('.')
       .setTimestamp()
       .setFooter('담당 관리자 : FGStudio#6284', img)
-      message.channel.send('test')
+      message.channel.send('<@328463558155173899> test')
 
 
 
