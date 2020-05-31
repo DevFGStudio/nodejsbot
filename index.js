@@ -39,8 +39,7 @@ client.on('message', (message) => {
   if(message.content == '!관리자호출') {
     let img = 'https://cdn.discordapp.com/attachments/714101231617835008/714101255814905877/supercomputer_servers_data_center_by_maxiphoto_getty_images_1200x800-100776400-large.jpg';
     let embed = new Discord.RichEmbed()
-      .setTitle('test')
-      .setAuthor('안내사항', img)
+      .setAuthor('관리자호출 안내', img)
       .setThumbnail(img)
       .addBlankField()
       .addField('반드시 읽어주시기 바랍니다.\n', '1. 관리자 사정에 따라 호출 후 바로 답변 못드릴 수 있습니다. 양해 부탁드립니다.\n\n2. 한번만 호출해주세요. 여러번 호출 할 경우, 경고 당하실 수 있습니다.\n\n3. 아주 급한 경우, 매니저 또는 관리자 1:1 DM 부탁드립니다.')
