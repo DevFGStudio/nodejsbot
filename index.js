@@ -43,7 +43,7 @@ client.on('message', (message) => {
       .setAuthor('안내사항', img)
       .setThumbnail(img)
       .addBlankField()
-      .addField('.')
+      .addField('<@328463558155173899> 관리자호출 입니다.')
       .setTimestamp()
       .setFooter('담당 관리자 : FGStudio#6284', img)
       message.channel.send('<@328463558155173899> test')
